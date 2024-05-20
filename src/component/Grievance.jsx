@@ -16,7 +16,7 @@ const Grievance = () => {
     status:'',
     feedback:''
   });
-  const BASE_URL = 'https://grs-backend-1.onrender.com';
+  const BASE_URL = 'https://grs-backend-2.onrender.com';
 
   const handleInputs = (event) => {
     const { name, value } = event.target;
