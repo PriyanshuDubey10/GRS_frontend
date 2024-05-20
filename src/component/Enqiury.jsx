@@ -7,7 +7,7 @@ const Enquiry = () => {
     const [loading, setLoading] = useState(true);
 
     const { userId } = useParams();
-    const BASE_URL = 'https://grs-backend-1.onrender.com';
+    const BASE_URL = 'https://grs-backend-2.onrender.com';
 
 console.log(userId);
     useEffect(() => {
