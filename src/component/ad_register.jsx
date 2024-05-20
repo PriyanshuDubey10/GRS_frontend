@@ -11,7 +11,7 @@ const Adminregister = () => {
     const [password, setPassword] = useState('');
     const { setUser } = useAuth();
 
-    const BASE_URL = 'https://grs-backend-1.onrender.com';
+    const BASE_URL = 'https://grs-backend-2.onrender.com';
     const navigate = useNavigate();
 
     const handleSubmit = async (e) => {
