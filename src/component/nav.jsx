@@ -13,7 +13,7 @@ const Nav = () => {
 
     const handleLogout = async () => {
         try {
-           const logout = await axios.get('https://grs-backend-1.onrender.com/api/users/logout');
+           const logout = await axios.get('https://grs-backend-2.onrender.com/api/users/logout');
            console.log(logout);
             setUser(null); // Clear the user state
             navigate('/'); // Redirect to the login page or any other page
