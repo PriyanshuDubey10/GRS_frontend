@@ -24,7 +24,8 @@ const Dashboard = () => {
     
     return (
         <div className="enq">
-            <table className="E_page">
+            <div className="table-container">
+            <table>
                 <thead>
                     <tr>
                         <th>ID</th>
@@ -56,6 +57,7 @@ const Dashboard = () => {
                     ))}
                 </tbody>
             </table>
+          </div>
         </div>
     );
 };
