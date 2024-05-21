@@ -32,6 +32,7 @@ console.log(userId);
             {loading ? (
                 <p>Loading...</p>
             ) : (
+            <div className="table-container">
                 <table className="E_page">
                     <thead>
                         <tr>
@@ -68,6 +69,7 @@ console.log(userId);
                         )}
                     </tbody>
                 </table>
+                </div>
             )}
         </div>
     );
