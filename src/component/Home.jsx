@@ -31,13 +31,41 @@ const Home = () => {
                 </div>
             </div>
             <div className="table">
-                <h1 className="heading">Grievance Appeal and Redressal Committee Members</h1>
-                <table><tr><th>Name</th><th>Designation</th><th>Position</th><th>Email ID</th></tr>
-                    <tr><td>Mr. Priyanshu Dubey</td><td>CEO</td><td>Head</td><td>Dubeypriyanshu180@gmail.com</td></tr>
-                    <tr><td>Mr. Avinash Chaurashiya</td><td>Director</td><td>Manager</td><td>kaluamaster420@gmail.com</td></tr>
-                    <tr><td>Mr. Shobhit Kumar Jha</td><td>Member</td><td>Investigator</td><td>Lyfer@gmail.com</td></tr>
-                </table>
-            </div>
+    <h1 className="heading">Grievance Appeal and Redressal Committee Members</h1>
+    <div className="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Designation</th>
+                    <th>Position</th>
+                    <th>Email ID</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mr. Priyanshu Dubey</td>
+                    <td>CEO</td>
+                    <td>Head</td>
+                    <td>Dubeypriyanshu180@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Mr. Avinash Chaurashiya</td>
+                    <td>Director</td>
+                    <td>Manager</td>
+                    <td>kaluamaster420@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Mr. Shobhit Kumar Jha</td>
+                    <td>Member</td>
+                    <td>Investigator</td>
+                    <td>Lyfer@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
         </div>
     )
 };
