@@ -33,7 +33,7 @@ console.log(userId);
                 <p>Loading...</p>
             ) : (
             <div className="table-container">
-                <table className="E_page">
+                <table>
                     <thead>
                         <tr>
                             <th>ID</th>
