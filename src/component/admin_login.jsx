@@ -13,7 +13,7 @@ const AdminLogin = () => {
     const { setUser } = useAuth();
     const navigate = useNavigate();
 
-    const BASE_URL = "https://grs-backend-2.onrender.com";
+    const BASE_URL = "https://gr-backend-zniz.onrender.com";
 
     const handleSubmit = async (e) => {
         e.preventDefault();
