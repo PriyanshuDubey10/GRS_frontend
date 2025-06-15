@@ -9,7 +9,7 @@ const Dashboard = () => {
 
     const { department } = useParams();
     console.log("department", department);
-    const BASE_URL = 'https://grs-backend-2.onrender.com';
+    const BASE_URL = 'https://gr-backend-zniz.onrender.com';
 
     useEffect(() => {
         axios.get(`${BASE_URL}/api/users/grievances/${department}`)
